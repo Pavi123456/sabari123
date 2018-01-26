@@ -7,7 +7,7 @@ int count=0,i;
 gets(a);
 for(i=0;a[i]!=NULL;i++)
 {
-if((a[i]>='0'&&a[i]<='9')
+if(a[i]>='0'&&a[i]<='9')
 {
 
 }
@@ -15,7 +15,7 @@ else if((a[i]>='a'&&a[i]<='z')||(a[i]>='A'&&a[i]<='Z'))
 {
 	
 }
-else if(' ')
+else if(a[i]==' ')
    {
    }
 else
